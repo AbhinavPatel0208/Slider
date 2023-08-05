@@ -1,0 +1,65 @@
+@font-face{
+  font-family: myfont;
+  src: url(./Death\ Spirit.ttf);
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: myfont;
+}
+body{
+  background-image: url("../bg.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.awesome-heading {
+  text-align: center;
+  font-size: 32px;
+  color: #a41c1cfd;
+  margin-top: 13px;
+  word-spacing: 14px;
+}
+
+main{
+  width: 25%;
+  height: 500px;
+  box-shadow: 25px 30px 20px  rgba(44, 1, 1, 0.456);
+  margin: auto;
+  margin-top: 130px;
+  border: none;
+  position: relative;
+  overflow: hidden;
+
+}
+
+.slide{
+  width: 100%;
+  height: 100%;
+  transition: 1s;
+  position: absolute;
+}
+
+.nav {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.nav button {
+  font-size: 20px;
+  padding: 10px 20px;
+  background-color: transparent;
+  border: none;
+  border-radius: 5px;
+  color: #9ed4dcfd;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.nav button:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
